@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    border-bottom: 1px solid rgba(216, 44, 44, 0.623);
+    padding-left: 2rem;
+}
+.navbar-brand,
+nav a {
+    color: tomato !important;
+}
+nav a {
+    font-size: 15px;
+}
+.s_b {
+    padding: 0px 10px !important;
+    box-shadow: none !important;
+    height: 2rem;
+    /* align-self: center; */
+}
+.search {
+ align-items: center;
+}
+.star_icon {
+    margin: 0 2rem;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+input:not([type="checkbox"]) , 
+button {
+    border-radius: 4px;
+    display: block;
+}
+
+.inputs {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(119, 119, 119, 0.349);
+    border-radius: 5px;
+    padding:  1rem;
+    margin: 3rem 0;
+    min-width: 20rem;
+}
+.inputs h2 {
+    text-align: center;
+}
+
+.in {
+    margin: 1rem 0;
+}
+.in p {
+    font-weight: bold;
+    color: rgba(201, 41, 41, 0.63);
+    padding: 5px 0;
+}
+input:not([type="checkbox"]) {
+    position: relative;
+    height: 2rem;
+    padding-left: 10px;
+    outline: none;
+    border:1px solid rgba(119, 119, 119, 0.493);
+    width: 100%;
+}
+.login {
+    margin-top: 1.5rem;
+    padding: 8px;
+    width: 100%;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+
+}
+small {
+    color: tomato;
+    position: absolute;
+}
+/* ------------------------------------------------------------- */
+/* register */
+
+.register {
+    border: 1px solid rgba(119, 119, 119, 0.349);
+    max-width: 25rem;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    margin: 3rem auto;
+}
+.register h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+.check {
+    margin: 20px  0;
+}
+[type="checkbox"]  {
+    margin: 10px 10px 10px 0;
+}
+/* ------------------------------------------------------------------------------ */
+/* Home */
+.moves {
+    margin: 1rem 0 ;
+    border: none !important;
+    color: white; 
+}
+.moves img ,
+.details_movi img {
+    box-shadow: -4px 1px 28px crimson;  
+    border-radius:3px ;  
+}
+.moves h6:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.contant{
+    padding: 3rem 2rem;
+}
+.star_move {
+    padding: .5rem;
+    color: yellow;
+    font-size: 2.5rem;
+
+}
+.card-body {
+    padding: 0 1rem !important;
+}
+.card a {
+    text-decoration: none;
+    color: white;
+
+}
+.star_move_fill {
+    fill: yellow;
+}       
+/* --------------------------------------------------------------------------------------------------- */
+/* show movie  */
+.details_movi {
+    color: white;
+    padding: 5.24rem;
+}
+
+.details_img {
+    max-width: 25rem;
+    max-height: 25rem;
+    
+}
+
+.details_img img{
+    width: 100%;
+}
+.details_info {
+    padding: 1rem  2rem;
+}
+.new_badge {
+    margin-left: 1rem;
+}
+.all_details_stars_fill {
+    margin-left: 1rem;
+}
+.details_stars {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.details_stars_fill {
+    color: yellow;
+    
+}
